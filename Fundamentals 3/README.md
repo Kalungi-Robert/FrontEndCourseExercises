@@ -25,22 +25,37 @@ For now, just write each function and test the output with `console.log`.
 ```js
 // 1) Type of function? 
 function add7(){
-  // Your code goes here...
+  //function add7(){
+        var number =prompt("Pick a number");
+        var NewNumber = 7 + parseInt(number);
+        return (NewNumber);
 }
+add7();
+
 
 // 2) Type of function?
 const multiply = function(){
-  // Your code goes here...
-}
+  function multiply (a) {
+    return function (b) {
+      return a * b;
+    };
+  };
 
-// 3) Type of function?
+console.log(multiply(4)(3));
+
+//Type of function?
 let capitalize = ()=>{
-  // Your code goes here...
+  func capitalizeFirstLetter() -> string {
+    return self.prefix(1).capitalized + dropFirst()
+
+  }
 }
 
 // 4) Type of function?
 function lastLetter(){
-  // Your code goes here...
+  let str = "ROBERT KALUNGI";
+  str.charAt(str.length-1);
+
 }
 ```
 
